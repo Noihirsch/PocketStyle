@@ -5,7 +5,7 @@ xBackground
 -------------------------------- */
 body {
   /* this is the page background */
-  background-color: #ffffff;
+  background-color: #222B45;
 }
 
 /* -------------------------------- 
@@ -20,6 +20,19 @@ xPatterns
   background: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px;
+
+}
+
+.logo1, .logo2, .logo3 img
+{
+  margin: 0 auto;
+  border-radius: 10%;
+  display: flex;
+  padding: 4px 4px 4px 4px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+
 }
 
 /* -------------------------------- 
@@ -104,7 +117,7 @@ xPage title
 
 -------------------------------- */
 main > h1 {
-  color: #19191a;
+  color: #ffffff;
 }
 @media only screen and (min-width: 1600px) {
   main > h1 {
@@ -120,7 +133,7 @@ xTypography
 -------------------------------- */
 h1, h2 {
   font-family: "Open Sans", sans-serif;
-  color: #19191a;
+  color: #ffffff;
 }
 
 h1 {
@@ -160,7 +173,7 @@ section > h2::before {
 p {
   font-size: 1.4rem;
   line-height: 1.4;
-  color: #58585b;
+  color: #ffffff;
 }
 p a {
   color: #5f8ee4;
@@ -825,49 +838,49 @@ section:nth-of-type(6) h2::before {
   padding: .6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #5f8ee4;
+  background: #222B45;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-  background: #759de8;
+  background: #374571;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-  background: #497fe0;
+  background: #566cad;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
-  background: #19191a;
+  background: #80004C;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
-  background: #262627;
+  background: #bc0071;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
-  background: #0d0d0d;
+  background: #c52686;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
-  background: #e4655f;
+  background:rgba(0, 149, 255, 0.662);
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::before {
-  background: #e87a75;
+  background: rgba(173, 221, 255, 0.32);
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::after {
-  background: #e05049;
+  background: rgba(243, 250, 255, 0.678);
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch {
-  background: #e6e6e6;
+  background: #00997a;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::before {
-  background: #f3f3f3;
+  background: #2ce69b;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::after {
-  background: #d9d9d9;
+  background: #8cfac7;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
-  background: #ffffff;
+  background: 	#b81d5b;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::before {
-  background: white;
+  background: 	#ff3d71;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
-  background: #f2f2f2;
+  background: #ff708d;
 }
 @media only screen and (min-width: 768px) {
   .cd-colors li {

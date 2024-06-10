@@ -5,49 +5,135 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather' rel='stylesheet' type='text/css'>
-
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style-guide.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
-	<title>Style Guide | CodyHouse</title>
+	<title>Pocket Hero | Style Guide </title>
+	<link rel="icon" href="assets/logooooo.svg" type="image/x-icon">
 </head>
+<style>
+    pre {
+        background-color: #f4f4f4; /* Light grey background */
+        border: 1px solid #ddd; /* Light grey border */
+        border-left: 3px solid #4633f3; /* Accent color on the left border */
+        color: #666; /* Darker text color for contrast */
+        page-break-inside: avoid;
+        font-family: monospace; /* Makes font in code blocks monospaced */
+        font-size: 15px; /* Slightly larger font size for readability */
+        line-height: 1.6; /* Increased line height for readability */
+        margin-bottom: 1.6em; /* Space below the code block */
+        max-width: 100%; /* Ensures the code block does not overflow its container */
+        overflow: auto; /* Adds a scrollbar if the code block is too wide */
+        padding: 1em 1.5em; /* Padding inside the code block */
+        display: block; /* Ensures the code block is block-level */
+        word-wrap: normal; /* Prevents code from wrapping */
+        white-space: pre-wrap; /* Maintains whitespace formatting */
+    }
+
+    code {
+        background-color: #f4f4f4; /* Matches the <pre> background for consistency */
+        border-radius: 3px; /* Optional: Rounds the corners of the code block */
+        font-family: monospace; /* Ensures font is monospaced */
+    }
+</style>
 <body>
 	<header>
-		<div class="cd-logo"><img src="assets/logo.svg" alt="Logo"></div>
+<style>
+	h1 {
+		font-size: 2.5em; /* Larger font size for headings */
+		margin-bottom: 1em; /* Space below the heading */
+		font-family: 'Poppins', sans-serif;
+	}
+    pre {
+        background-color: #000000; /* Light grey background */
+        border: 1px solid #ddd; /* Light grey border */
+        border-left: 3px solid #1a0462; /* Accent color on the left border */
+        color: #ffffff; /* Darker text color for contrast */
+        page-break-inside: avoid;
+        font-family: monospace; /* Makes font in code blocks monospaced */
+        font-size: 15px; /* Slightly larger font size for readability */
+        line-height: 1.6; /* Increased line height for readability */
+        margin-bottom: 1.6em; /* Space below the code block */
+        max-width: 100%; /* Ensures the code block does not overflow its container */
+        overflow: auto; /* Adds a scrollbar if the code block is too wide */
+        padding: 1em 0.5em 1em 0.5em; /* Adjusted padding: top right bottom left */
+        display: block; /* Ensures the code block is block-level */
+        word-wrap: normal; /* Prevents code from wrapping */
+        white-space: pre-wrap; /* Maintains whitespace formatting */
+    }
 
+    code {
+        background-color: #000000; /* Matches the <pre> background for consistency */
+        border-radius: 3px; /* Optional: Rounds the corners of the code block */
+        font-family: monospace; /* Ensures font is monospaced */
+        /* No specific left margin adjustment needed for inline code */
+    }
+</style>
 		<nav>
 			<ul class="cd-main-nav">
 				<li><a href="#branding">Branding</a></li>
 				<li><a href="#colors">Colors</a></li>
 				<li><a href="#typography">Typography</a></li>
 				<li><a href="#buttons">Buttons</a></li>
-				<li><a href="#icons">icons</a></li>
+				<li><a href="#icons">Icons</a></li>
 				<li><a href="#form">Form</a></li>
+				<li><a href="#wireframe">Wireframing</a></li>
 			</ul> <!-- cd-main-nav -->
 		</nav>
 		
-		<a href="assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
+		<a href="assets/nebular-master.zip" class="cd-download"><span>Download Nebular library</span></a>
 		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
 	</header>
 
 	<main>
-		<h1>Style Guide 1.0</h1>
+		<h1>Pocket Hero's Style Guide</h1>
+		<p>Here's a simple style guide designed in order to help future 
+			Pocket Hero designers understand how to design interfaces for the app.
+
+			Pocket Hero's style follows a simple design philosophy: ✨ "The simpler the slay-er" ✨ 
+			<br><br>
+
+			Before designing, make sure to run these few commands in order to keep things going
+		<br><br>
+			1. Install Angular CLI: Make sure to add the -g instance so it's a global installation! if you don't, the path won't recognize
+			the ng command and it won't let you build and deploy the project any further.<br><br>
+			<pre><code>
+				npm install -g @angular/cli
+			</code></pre>
+			<br><br>
+			<p>2. Install the project dependencies: Make sure to run this command in the project's root directory (pocket-hero)</p>
+			<br><br>
+			<pre><code>
+				npm i
+			</code></pre>
+			<br><br>
+			<p>3. Build and deploy the project. </p>
+			<br><br>
+			<p>In order to build it, run this command in the same directory</p>
+			<pre><code>
+				ng b<br>
+			</code></pre>
+			<p>And deploy it the serve command</p>
+			<pre><code>
+				ng s
+			</code></pre>
+			<br><br>
+
+
+			
+
+		</p>
 
 		<section id="branding" class="cd-branding">
 			<h2>Branding</h2>
-
 			<ul>
-				<li class="cd-box"><img src="assets/branding/logo-ver-1.jpg" alt="Logo version 1"></li>
-				<li class="cd-box"><img src="assets/branding/logo-ver-2.jpg" alt="Logo version 2"></li>
+				<li class="logo1"><img src="assets/logooooo.png" style="height: 300px; width: 300px;"alt="Logo version 1"></li>
+				<li class="logo2"><img src="assets/logooooo.png" style="height: 200px; width: 200px;"alt="Logo version 2"></li>
+				<li class="logo3"><img src="assets/logooooo.png" style="height: 100px; width: 100px;"alt="Logo version 3"></li>
+
 			</ul>
-
-			<ul>
-				<li><img src="assets/branding/touch-icon-1.jpg" alt="Touch Icon 1"></li>
-				<li><img src="assets/branding/touch-icon-2.jpg" alt="Touch Icon 2"></li>
-				<li><img src="assets/branding/favicon-1.jpg" alt="Favicon 1"></li>
-				<li><img src="assets/branding/favicon-2.jpg" alt="Favicon 2"></li>
-			</ul> 
 		</section>
 
 		<section id="colors" class="cd-colors">
@@ -55,45 +141,52 @@
 
 			<ul>
 				<li class="cd-box">
-					<div class="cd-color-swatch"></div>
+					<div class="cd-color-swatch">
+					
+					</div>
+					<p style="color: #1a0462;">"Crown of Madness"</p>
 				</li>
 
 				<li class="cd-box">
 					<div class="cd-color-swatch"></div>
+					<p style="color: #80004C;">"Lightning Lure"</p>
 				</li>
 
 				<li class="cd-box">
 					<div class="cd-color-swatch"></div>
+					<p style="color: #516cab;">"Gust of Wind"</p>
+
 				</li>
 
 				<li class="cd-box">
 					<div class="cd-color-swatch"></div>
+					<p style="color: #00997a;">"Barkskin"</p>
+
 				</li>
 
 				<li class="cd-box">
 					<div class="cd-color-swatch"></div>
+					<p style="color: #b81d5b;">"Goodberry"</p>
+
+					
 				</li>
+
+				<iframe src="https://akveo.github.io/nebular/docs/design-system/dark-theme" width="100%" height="600" style="border:none;"></iframe>
 			</ul>
 		</section>
-
 		<section id="typography" class="cd-typography">
 			<h2>Typography</h2>
 
 			<div class="cd-box">
-				<h1>Heading, <span></span></h1>
-				<p>Aa - <span></span>. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate distinctio reprehenderit, autem deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi distinctio nemo repellat, voluptate fugiat. Quidem neque illum, blanditiis!</p>
+				<h1 style="color:#b81d5b;">Heading, <span></span></h1>
+				<p style="color: #030303;">Aa - <span style="color:#000000;"></span>. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate distinctio reprehenderit, autem deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi distinctio nemo repellat, voluptate fugiat. Quidem neque illum, blanditiis!</p>
 			</div>
 		</section>
 
 		<section id="buttons" class="cd-buttons">
 			<h2>Buttons</h2>
 
-			<div class="cd-box">
-				<button class="btn">Normal</button>
-				<button class="btn btn-success">Success</button>
-				<button class="btn btn-alert">Alert</button>
-				<button class="btn btn-outline">Outline</button>
-			</div>
+			<iframe src="https://akveo.github.io/nebular/docs/components/button/overview#nbbuttoncomponent" width="100%" height="600" style="border:none;"></iframe>
 
 		</section>
 
@@ -101,14 +194,7 @@
 			<h2>Icons</h2>
 
 			<ul class="cd-box">
-				<li class="cd-icon-1"></li>
-				<li class="cd-icon-2"></li>
-				<li class="cd-icon-3"></li>
-				<li class="cd-icon-4"></li>
-				<li class="cd-icon-5"></li>
-				<li class="cd-icon-6"></li>
-				<li class="cd-icon-7"></li>
-				<li class="cd-icon-8"></li>
+				<iframe src="https://akveo.github.io/nebular/docs/components/icon/overview#nbiconcomponent" width="100%" height="600" style="border:none;"></iframe>
 			</ul>
 		</section>
 
@@ -116,35 +202,14 @@
 			<h2>Form</h2>
 			
 			<div class="cd-box">
-				<form>
-					<fieldset>
-						<input type="text">
-						<input class="success" type="text">
-						<input class="alert" type="text">
-					</fieldset>
-
-					<fieldset>
-						<div class="cd-input-wrapper">
-							<input type="radio" name="radioButton" id="radio1">
-	      					<label class="radio-label" for="radio1">Choice 1</label>
-      					</div>
-
-						<div class="cd-input-wrapper">
-							<input type="checkbox" id="checkbox1">
-	      					<label class="checkbox-label" for="checkbox1">Option 1</label>
-      					</div>
-
-						<div class="cd-input-wrapper cd-select">
-	      					<select name="select-this" id="select-this">
-					          <option value="0">Select</option>
-					          <option value="1">Option 1</option>
-					          <option value="2">Option 2</option>
-					          <option value="2">Option 3</option>
-					      	</select>
-				      	</div>
-					</fieldset>
-				</form>
+				<iframe src="https://akveo.github.io/nebular/docs/components/input/overview#nbinputdirective" width="100%" height="600" style="border:none;"></iframe>
 			</div>
+		</section>
+		<section id="wireframe" class="cd-wireframe">
+			<h2>Wireframing</h2>
+			<p>Here's a simple wireframe of the app's main page</p>
+			<img src="assets/wireframe.png" alt="Wireframe of the app's main page" style="width: 100%; height: 100%;
+
 		</section>
 	</main>
 <script src="js/jquery-2.1.1.js"></script>
